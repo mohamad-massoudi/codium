@@ -1,6 +1,7 @@
 import React from 'react'
 
 import type { Metadata } from 'next'
+import { Button } from '@heroui/button'
  
 export const metadata: Metadata = {
   title: 'about',
@@ -9,7 +10,9 @@ export const metadata: Metadata = {
 
 function About() {
   return (
-    <div>About</div>
+    <>
+    <Button className='bg-amber-400'>hello</Button>
+    </>
   )
 }
 

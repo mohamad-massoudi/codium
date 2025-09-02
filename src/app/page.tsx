@@ -1,20 +1,16 @@
-import { Button } from "@heroui/button";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from 'next'
- 
+import type { Metadata } from "next";
+import { Button } from "@heroui/button";
+
 export const metadata: Metadata = {
-  title: 'Home',
-}
- 
-// Output: <title>About | Acme</title>
-// Output: <title>About | Acme</title>
-// Output: <title>About | Acme</title>
+  title: "Home",
+};
 
 export default function Home() {
   return (
-    <div >
-      
+    <div>
+      <Button color="warning">Warning</Button>
     </div>
   );
 }
